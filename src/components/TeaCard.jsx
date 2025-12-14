@@ -37,7 +37,7 @@ const TeaCard = ({ image, tags, title, description }) => {
                 </p>
 
                 {/* Button */}
-                <Button to="/products" variant="primary">
+                <Button to="/products" variant="primary" size="sm">
                     View Details
                 </Button>
             </div>
