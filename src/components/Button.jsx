@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Button = ({ children, to, variant = 'primary', size = 'md', onClick, className }) => {
     const variants = {
         primary: 'bg-amber-500 hover:bg-amber-600 text-white transition-colors shadow-lg rounded-lg',
-        outline: 'border-2 border-purple-700 text-purple-700 hover:bg-purple-700 hover:text-white',
+        outline: 'border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white',
         secondary: 'bg-green-600 hover:bg-green-700 text-white',
     }
 

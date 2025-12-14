@@ -19,7 +19,7 @@ const TeaCard = ({ image, tags, title, description }) => {
                     {tags.map((tag, index) => (
                         <span
                             key={index}
-                            className="px-4 py-1 bg-purple-100 text-700 rounded-full text-sm font-medium"
+                            className="px-4 py-1 bg-purple-100 text-green-700 rounded-full text-sm font-medium"
                         >
                             {tag}
                         </span>
@@ -27,7 +27,7 @@ const TeaCard = ({ image, tags, title, description }) => {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-2xl font-bold text-700 mb-3">
+                <h3 className="text-2xl font-bold text-green-800 mb-3">
                     {title}
                 </h3>
 
