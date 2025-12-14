@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const Hero = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -75,12 +76,13 @@ const Hero = () => {
                         Discover authentic Chinese tea culture with our carefully selected premium teas,
                         exported directly from Sichuan Province to African markets.
                     </p>
-                    <Link
+                    {/* <Link
                         to="/products"
                         className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors shadow-lg"
                     >
                         Explore Our Collection
-                    </Link>
+                    </Link> */}
+                    <Button to='/products' variant='primary' size='lg'>Explore Our Collection</Button>
                 </div>
             </div>
 

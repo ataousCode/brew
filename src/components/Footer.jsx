@@ -52,7 +52,7 @@ const Footer = () => {
               <img 
                 src="/logo.png" 
                 alt="Sichuan Tea Logo" 
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
             <p className="text-gray-300 mb-4">
